@@ -7,7 +7,7 @@
             return Math.PI * Math.Pow (radius, 2);
         }
 
-        public static void printAreaOfCircle()
+        public static void PrintAreaOfCircle()
         {
             Console.WriteLine("what is the radius of your circle?");
             double radius = double.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@
             
             Console.WriteLine($"{a} /{b} is {quotient} remainder {remainder}");
             
-            printAreaOfCircle();
+            PrintAreaOfCircle();
             
             int i = 3;
             int j = 4;
